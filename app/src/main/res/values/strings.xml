@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">KidShield</string>
+    <string name="app_persian_title">KidShield</string>
+    <string name="app_subtitle">سپر احراز هویت اینترنت والدین</string>
+    <string name="tile_label">قفل اینترنت KidShield</string>
+
+    <!-- Navigation -->
+    <string name="nav_shield">سپر اینترنت</string>
+    <string name="nav_rules">قوانین و امنیت</string>
+    <string name="nav_activity">گزارش فعالیت</string>
+
+    <!-- Onboarding / PIN Setup -->
+    <string name="setup_title">محافظت هوشمند از اینترنت گوشی</string>
+    <string name="setup_desc">حتی اگر کودک وای‌فای یا دیتای موبایل را روشن کند، بدون احراز هویت والدین هیچ دسترسی به اینترنت برقرار نمی‌شود.</string>
+    <string name="setup_step_pin">ساخت رمز ۴ رقمی والدین</string>
+    <string name="setup_step_confirm">تکرار رمز ۴ رقمی برای اطمینان</string>
+    <string name="setup_pin_mismatch">رمزهای واردشده یکسان نیستند. دوباره تلاش کنید.</string>
+    <string name="setup_recovery_title">سوال بازیابی رمز (برای مواقع فراموشی)</string>
+    <string name="setup_recovery_question">نام اولین مدرسه یا نام مستعار کودکی شما چیست؟</string>
+    <string name="setup_recovery_hint">پاسخ کوتاه و به یاد ماندنی...</string>
+    <string name="setup_biometric_enable">فعال‌سازی احراز هویت با اثر انگشت / قفل گوشی</string>
+    <string name="setup_complete_button">ذخیره رمز و ورود به KidShield</string>
+    <string name="setup_continue">ادامه</string>
+
+    <!-- Dashboard -->
+    <string name="status_locked_title">اینترنت کاملاً قفل است</string>
+    <string name="status_locked_subtitle">فایروال محلی فعال است · ترافیک وای‌فای و دیتا مسدود شد</string>
+    <string name="status_locked_partial_wifi">فقط وای‌فای تحت قفل است</string>
+    <string name="status_locked_partial_cellular">فقط دیتای موبایل تحت قفل است</string>
+    <string name="status_unlocked_title">اینترنت باز است</string>
+    <string name="status_unlocked_timed">قفل خودکار پس از پایان شمارش معکوس</string>
+    <string name="status_unlocked_manual">برای محافظت، پیش از تحویل گوشی قفل کنید</string>
+
+    <string name="action_tap_to_unlock">احراز هویت و باز کردن اینترنت</string>
+    <string name="action_tap_to_lock">قفل فوری اینترنت (بدون نیاز به رمز)</string>
+    <string name="action_extend_time">تمدید زمان</string>
+
+    <string name="network_wifi_title">وای‌فای (Wi-Fi)</string>
+    <string name="network_data_title">دیتای موبایل</string>
+    <string name="network_state_blocked">روشن · مسدود توسط سپر</string>
+    <string name="network_state_active">متصل و فعال</string>
+    <string name="network_state_off">خاموش / قطع</string>
+    <string name="network_settings_button">تنظیمات اتصال گوشی</string>
+
+    <string name="scope_section_title">محدوده قفل اینترنت</string>
+    <string name="scope_all">همه شبکه‌ها (وای‌فای + دیتا)</string>
+    <string name="scope_cellular_only">فقط دیتای موبایل</string>
+    <string name="scope_wifi_only">فقط وای‌فای</string>
+
+    <string name="duration_sheet_title">مدت زمان باز ماندن اینترنت</string>
+    <string name="duration_15m">۱۵ دقیقه</string>
+    <string name="duration_30m">۳۰ دقیقه</string>
+    <string name="duration_60m">۱ ساعت</string>
+    <string name="duration_unlimited">تا قفل دستی</string>
+
+    <!-- Authentication Gate -->
+    <string name="auth_title_unlock">احراز هویت والدین</string>
+    <string name="auth_subtitle_unlock">برای باز کردن اینترنت رمز ۴ رقمی را وارد کنید</string>
+    <string name="auth_subtitle_settings">برای تغییر تنظیمات امنیتی احراز هویت کنید</string>
+    <string name="auth_subtitle_network">برای باز کردن پنل تنظیمات شبکه احراز هویت کنید</string>
+    <string name="auth_use_biometric">احراز هویت با اثر انگشت / قفل گوشی</string>
+    <string name="auth_wrong_pin">رمز اشتباه است! تلاش باقی‌مانده: %1$d</string>
+    <string name="auth_lockout_message">تلاش‌های ناموفق زیاد! لطفاً %1$d ثانیه صبر کنید.</string>
+    <string name="auth_forgot_pin">رمز را فراموش کرده‌اید؟</string>
+    <string name="auth_cancel">انصراف</string>
+    <string name="auth_recovery_verify">تایید پاسخ و ساخت رمز جدید</string>
+    <string name="auth_recovery_wrong">پاسخ بازیابی نادرست است.</string>
+
+    <!-- Rules & Security Screen -->
+    <string name="rules_header">تنظیمات امنیتی و ضد دور زدن</string>
+    <string name="rule_screen_off_title">قفل خودکار با خاموش شدن صفحه</string>
+    <string name="rule_screen_off_desc">با قفل شدن صفحه گوشی، اینترنت فوراً و به صورت خودکار قفل می‌شود.</string>
+    <string name="rule_biometric_title">ورود با اثر انگشت / قفل دستگاه</string>
+    <string name="rule_biometric_desc">استفاده از حسگر بیومتریک گوشی برای باز کردن سریع‌تر قفل اینترنت.</string>
+    <string name="rule_biometric_unavailable">بیومتریک یا قفل صفحه روی این دستگاه تنظیم نشده است.</string>
+    <string name="rule_change_pin_title">تغییر رمز ۴ رقمی والدین</string>
+    <string name="rule_change_pin_desc">رمز عبور فعلی را با رمز جدید جایگزین کنید.</string>
+    <string name="rule_notifications_title">اعلان وضعیت سپر</string>
+    <string name="rule_notifications_desc">نمایش وضعیت قفل و زمان باقی‌مانده در نوار اعلان گوشی.</string>
+    <string name="rule_notifications_enable">فعالسازی اعلان</string>
+
+    <string name="hardening_title">مقاوم‌سازی در برابر دور زدن کودک</string>
+    <string name="hardening_desc">برای جلوگیری از بستن برنامه توسط کودک، در تنظیمات VPN گوشی گزینه «VPN همیشگی (Always-on)» و «مسدود کردن اتصالات بدون VPN» را برای KidShield فعال کنید.</string>
+    <string name="hardening_open_vpn_settings">باز کردن تنظیمات VPN گوشی</string>
+    <string name="tile_guide_title">دکمه سریع در نوار اعلان (Quick Settings)</string>
+    <string name="tile_guide_desc">می‌توانید کاشی «قفل اینترنت KidShield» را به پنل بالای گوشی اضافه کنید تا قبل از دادن گوشی به کودک، با یک لمس اینترنت را قفل کنید.</string>
+
+    <!-- Activity Log Screen -->
+    <string name="log_header">گزارش امنیت و تلاش‌های اتصال</string>
+    <string name="log_filter_all">همه</string>
+    <string name="log_filter_alerts">هشدارها</string>
+    <string name="log_filter_locks">قفل و بازگشایی</string>
+    <string name="log_clear_action">پاک‌سازی گزارش</string>
+    <string name="log_empty_title">هنوز رویدادی ثبت نشده است</string>
+    <string name="log_empty_desc">هرگونه قفل‌گذاری، باز کردن اینترنت یا تلاش ناموفق برای ورود در اینجا ثبت می‌شود.</string>
+
+    <!-- VPN / Notification -->
+    <string name="vpn_channel_name">محافظ اینترنت KidShield</string>
+    <string name="vpn_channel_desc">اعلان دائمی وضعیت قفل اینترنت و تایمر دسترسی موقت</string>
+    <string name="vpn_notif_locked_title">سپر اینترنت KidShield فعال است</string>
+    <string name="vpn_notif_locked_text">دسترسی به اینترنت (وای‌فای و دیتا) تا احراز هویت والدین مسدود است.</string>
+    <string name="vpn_notif_timed_title">اینترنت به صورت موقت باز است</string>
+    <string name="vpn_notif_timed_text">قفل خودکار در %1$s · برای قفل فوری لمس کنید</string>
+    <string name="vpn_permission_needed">برای مسدود کردن واقعی ترافیک وای‌فای و دیتا، اجازه ایجاد اتصال محلی VPN را تایید کنید. هیچ داده‌ای به سرور خارجی ارسال نمی‌شود.</string>
+    <string name="vpn_permission_denied">مجوز محافظ محلی VPN تایید نشد؛ بدون این مجوز مسدودسازی ترافیک ممکن نیست.</string>
+    <string name="vpn_active_badge">فایروال محلی فعال</string>
+    <string name="vpn_standby_badge">آماده‌باش هوشمند</string>
+</resources>

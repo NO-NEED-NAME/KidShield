@@ -1,0 +1,6 @@
+{
+  "name": "KidShield",
+  "description": "KidShield — Parental internet lock for Android that gates Wi-Fi and Mobile Data internet access behind PIN and biometric authentication.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
