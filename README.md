@@ -6,9 +6,9 @@
 
 <h1 align="center">KidShield | سپر اینترنت والدین</h1>
 
-<span align="center">
+<p align="center">
   <strong>یک راهکار متن‌باز، سبک و ۱۰۰٪ آفلاین برای کنترل و قفل هوشمند اینترنت در سیستم‌عامل اندروید</strong>
-</span>
+</p>
 
 <p align="center">
   <a href="https://github.com/NO-NEED-NAME/KidShield/releases"><img src="https://img.shields.io/badge/Download-Latest%20APK-brightgreen?logo=android" alt="Download APK"></a>
