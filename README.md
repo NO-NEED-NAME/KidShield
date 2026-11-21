@@ -4,9 +4,8 @@
   <img src="app/src/main/res/drawable/app_icon_modirman.png" width="96" height="96" alt="KidShield Logo">
 </p>
 
-<h1 align="center">KidShield | سپر اینترنت والدین</h1>
-
 <p align="center">
+  <font size="6"><b>🛡️ KidShield | سپر اینترنت والدین</b></font><br>
   <strong>یک راهکار متن‌باز، سبک و ۱۰۰٪ آفلاین برای کنترل و قفل هوشمند اینترنت در سیستم‌عامل اندروید</strong>
 </p>
 
